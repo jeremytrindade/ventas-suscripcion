@@ -34,6 +34,9 @@
   	<!-- jdSlider -->
 	<link rel="stylesheet" href="vistas/css/plugins/jdSlider.css">
 
+	<!-- Select2 -->
+	<link rel="stylesheet" href="vistas/css/plugins/select2.min.css">
+
   	<!-- estilo personalizado -->
   	<link rel="stylesheet" href="vistas/css/style.css">
 
@@ -59,6 +62,15 @@
 	<!-- jdSlider -->
 	<!-- https://www.jqueryscript.net/slider/Carousel-Slideshow-jdSlider.html -->
 	<script src="vistas/js/plugins/jdSlider.js"></script>
+
+
+	<!-- Select2 -->
+	<!-- https://github.com/slect2/select2 -->
+	<script src="vistas/js/plugins/select2.full.min.js"></script>
+
+	<!-- InputMask -->
+	<!-- https://github.com/RobinHerbots/Inputmask/-->
+	<script src="vistas/js/plugins/jquery.inputmask.js"></script>
 
 
 
@@ -126,6 +138,7 @@ include "paginas/modulos/footer.php";
 </div>
 
 <script src="vistas/js/inicio.js"></script>
+<script src="vistas/js/usuarios.js"></script>
 </body>
 
 </html>

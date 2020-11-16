@@ -22,7 +22,7 @@
 						<li>
 							<a href="cuerpo-activo">
 								
-								<figure>
+								<figure class="px-4 activado">
 									<img src="vistas/img/cuerpo-activo/01-imagen.jpg">
 								</figure>
 								<h6 class="text-center text-secundary">
@@ -34,7 +34,7 @@
 						<li>
 							<a href="cuerpo-activo">
 								
-								<figure>
+								<figure class="px-4 activado">
 									<img src="vistas/img/cuerpo-activo/02-imagen.jpg">
 								</figure>
 								<h6 class="text-center text-secundary">
@@ -46,7 +46,7 @@
 						<li>
 							<a href="cuerpo-activo">
 								
-								<figure>
+								<figure class="px-4 activado">
 									<img src="vistas/img/cuerpo-activo/03-imagen.jpg">
 								</figure>
 								<h6 class="text-center text-secundary">
@@ -58,7 +58,7 @@
 						<li>
 							<a href="cuerpo-activo">
 								
-								<figure>
+								<figure class="px-4 desactivado">
 									<img src="vistas/img/cuerpo-activo/04-imagen.jpg">
 								</figure>
 								<h6 class="text-center text-secundary">
@@ -70,7 +70,7 @@
 						<li>
 							<a href="cuerpo-activo">
 								
-								<figure>
+								<figure class="px-4 desactivado">
 									<img src="vistas/img/cuerpo-activo/05-imagen.jpg">
 								</figure>
 								<h6 class="text-center text-secundary">
@@ -82,7 +82,7 @@
 						<li>
 							<a href="cuerpo-activo">
 								
-								<figure>
+								<figure class="px-4 desactivado">
 									<img src="vistas/img/cuerpo-activo/06-imagen.jpg">
 								</figure>
 								<h6 class="text-center text-secundary">
@@ -125,7 +125,93 @@
 		</div>
 	</div>
 	<div class="card-body">
-			Start creating your amazing application!
+			<div class="jd-slider slideAcademia">
+				<div class="slide-inner">
+					<ul class="slide-area">
+						<li>
+							<a href="mente-sana">
+								
+								<figure class="px-4 activado">
+									<img src="vistas/img/mente-sana/01-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="mente-sana">
+								
+								<figure class="px-4 activado">
+									<img src="vistas/img/mente-sana/02-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="mente-sana">
+								
+								<figure class="px-4 activado">
+									<img src="vistas/img/mente-sana/03-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="mente-sana">
+								
+								<figure class="px-4 desactivado">
+									<img src="vistas/img/mente-sana/04-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="mente-sana">
+								
+								<figure class="px-4 desactivado">
+									<img src="vistas/img/mente-sana/05-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="mente-sana">
+								
+								<figure class="px-4 desactivado">
+									<img src="vistas/img/mente-sana/06-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+					</ul>
+					<a href="#" class="prev">
+						<i class="fa fa-angle-left text-muted"></i>
+					</a>
+					<a href="#" class="next">
+						<i class="fa fa-angle-right text-muted"></i>
+					</a>
+				</div>
+				<div class="controller">
+					<div class="indicate-area"></div>
+				</div>
+			</div>
 	</div>
 	<!-- /.card-body -->
 
@@ -148,7 +234,93 @@
 		</div>
 	</div>
 	<div class="card-body">
-			Start creating your amazing application!
+			<div class="jd-slider slideAcademia">
+				<div class="slide-inner">
+					<ul class="slide-area">
+						<li>
+							<a href="espiritu-libre">
+								
+								<figure class="px-4 activado">
+									<img src="vistas/img/espiritu-libre/01-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="espiritu-libre">
+								
+								<figure class="px-4 activado">
+									<img src="vistas/img/espiritu-libre/02-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="espiritu-libre">
+								
+								<figure class="px-4 activado">
+									<img src="vistas/img/espiritu-libre/03-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="espiritu-libre">
+								
+								<figure class="px-4 desactivado">
+									<img src="vistas/img/espiritu-libre/04-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="espiritu-libre">
+								
+								<figure class="px-4 desactivado">
+									<img src="vistas/img/espiritu-libre/05-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+						<li>
+							<a href="espiritu-libre">
+								
+								<figure class="px-4 desactivado">
+									<img src="vistas/img/espiritu-libre/06-imagen.jpg">
+								</figure>
+								<h6 class="text-center text-secundary">
+									Lorem Ipsum
+								</h6>
+
+							</a>
+						</li>
+					</ul>
+					<a href="#" class="prev">
+						<i class="fa fa-angle-left text-muted"></i>
+					</a>
+					<a href="#" class="next">
+						<i class="fa fa-angle-right text-muted"></i>
+					</a>
+				</div>
+				<div class="controller">
+					<div class="indicate-area"></div>
+				</div>
+			</div>
 	</div>
 	<!-- /.card-body -->
 
