@@ -58,6 +58,13 @@
 
 						</div>
 
+						<?php
+
+							$registro = new ControladorUsuarios();
+							$registro -> ctrRegistroUsuario();
+
+						?>
+
 						<input type="submit" class="form-control my-3 py-3 btn btn-info" value="Sign up">
 
 						<p class="text-center py-3">Do you already have an account? | <a href="<?php echo $ruta; ?>ingreso">Login</a></p>

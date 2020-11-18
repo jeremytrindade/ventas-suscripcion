@@ -72,6 +72,12 @@
 	<!-- https://github.com/RobinHerbots/Inputmask/-->
 	<script src="vistas/js/plugins/jquery.inputmask.js"></script>
 
+	<!-- jSignature -->
+	<!-- https://www.jqueryscript.net/other/Signature-Field-Plugin-jQuery-jSignature.html -->
+	<script src="vistas/js/plugins/jSignature.js"></script>
+	<script src="vistas/js/plugins/jSignature.CompressorSVG.js"></script>
+
+
 
 
 

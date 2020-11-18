@@ -37,7 +37,7 @@
 				<label for="inputEmail" class="control-label">Correo electrónico</label>
 
 				<div>
-
+					
 					<input type="text" class="form-control" id="inputEmail" value="info@academyoflife.com" readonly>
 
 				</div>
@@ -85,81 +85,72 @@
 
 			</div>
 
-    	<div class="form-group">
-    		
-    		<label for="inputMovil" class="control-label">Teléfono Móvil</label>
+			<div class="form-group">
 
-    			<div class="input-group">
+				<label for="inputMovil" class="control-label">Teléfono Móvil</label>
 
-    				<div class="input-group-prepend">
+				<div class="input-group"> 
+					
+					<div class="input-group-prepend">
+						<span class="p-2 bg-info rounded-left dialCode"></span>
+					</div>
 
-    					<span class="p-2 bg-info rounded-left dialCode"></span>
+					<input type="text" class="form-control" id="inputMovil" data-inputmask="'mask':'(999) 999-9999'" data-mask>
 
-    				</div>
+				</div>
 
-    			<input type="text" class="form-control" id="inputMovil" data-inputmask="'mask':'(999) 999-9999'" data-mask>
+			</div>
 
+			<div class="form-group">
 
-    			</div>
+				<label for="tipoRed">Tipo de Red:</label>
 
-    	</div>
+				<select class="form-control" id="tipoRed">
+					
+					<option value="">Seleccione tipo de red</option>
+					<option value="uninivel">Red UniNivel</option>
+					<option value="binaria">Red Binaria</option>
+					<option value="matriz">Red Matriz 4x4</option>
 
-    	<div class="form-group">
-    		
-    		<label for="inputRed">Tipo de Red:</label>
+				</select>
 
-    		<select id="tipoRed" class="form-control">
+			</div>
 
-    			<option value="">Seleccione tipo de Red</option>
-    			<option value="uninivel">Red UniNivel</option>
-    			<option value="binaria">Red Binaria</option>
-    			<option value="matriz">Red Matriz 4x4</option>
+			<div class="form-group pb-4">
 
-    		</select>
+				<div class="col-sm-offset-2">
 
-    	</div>
+					<div class="checkbox">
 
-    	<div class="form-group pb-4">
+						<input type="checkbox" id="aceptarTerminos">
 
-    		<div class="col-sm-offset-2">
+						<label for="aceptarTerminos">
+							<span></span> Yo acepto y firmo los <a href="#terminos" data-toggle="collapse">términos y condiciones</a>
+						</label>
 
-    			<div class="checkbox">
+						<a href="#terminos" data-toggle="collapse"><span class="float-left float-xl-right text-info"><b>Ver y firmar términos y condiciones</b></span>
+						</a>
 
-    				<input type="checkbox" id="aceptarTerminos">
+					</div>
 
-    				<label for="aceptarTerminos">
-    					<span></span> Yo acepto y firmo los <a href="#terminos" data-toggle="collapse">términos y condiciones</a>
-    				</label>
+				</div>
 
-    				<a href="#terminos" data-toggle="collapse"><span class="float-left float-xl-right text-info"><b>Ver y firmar términos y condiciones</b></span>
-    				</a>
+			</div>
 
-    			</div>
+			<!--=====================================
+			CONTRATO
+			======================================-->
 
-    		</div>
+			<div class="clearfix"></div>
 
-    	</div>
-
-    	<div class="form-group">
-
-    		<div class="col-sm-offset-2">
-
-    			<button type="submit" class="btn btn-dark suscribirse">Suscribirse</button>
-
-    		</div>
-
-    	</div>
-
-    	<!--=============================================
-		CONTRATO
-		=============================================-->
-
-		<div class="clearfix">
-			
 			<div id="terminos" class="collapse pb-4">
+				
 				<div class="card">
+
 					<div class="card-body">
+
 						Los suscritos a saber: ACADEMY OF LIFE, sociedad comercial debidamente constituida por documento privado de Julio 1 de 2018, registrado en Cámara de Comercio el 1 de Julio de 2018, en libro 9, bajo el número 18147, con domicilio principal en la ciudad de Medellín, país Colombia, identificada con número de NIT.900.661.621-4, representada legalmente por PEPITO PEREZ, mayor de edad, vecino de Medellín, identificado con cédula de ciudadanía número 8.161.865, quien adelante y para todos los efectos del presente contrato se denominará EL FABRICANTE, y Alexander Pierce, persona que acepta estos términos y condiciones, mayor de edad, actuando en nombre propio, quien en adelante y para todos los efectos del presente contrato se denominará EL DISTRIBUIDOR O VENDEDOR, hemos acordado celebrar el presente contrato de DISTRIBUCIÓN AL DETAL DE PRODUCTOS Y SERVICIOS, que se regirá por las siguientes partes y cláusulas: 
+
 					</div>
 
 					<div class="card-header">
@@ -325,13 +316,21 @@
 				 		</div>
 
 				 	</div>
+
+				</div>
+
+			</div>
+		
+
+			<div class="form-group">
+				<div class="col-sm-offset-2">
+					<button type="submit" class="btn btn-dark suscribirse">Suscribirse</button>
 				</div>
 			</div>
 
+
 		</div>
 
-    </div>
+	</div>	
 
-  </div>
-  
 </div>
