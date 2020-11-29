@@ -2,11 +2,11 @@
 
 require_once "conexion.php";
 
-Class ModeloUsuarios{
+class ModeloUsuarios{
 
-	/*============================================
-	=            Registro de usuarios            =
-	============================================*/
+	/*=============================================
+	Registro de usuarios
+	=============================================*/
 
 	static public function mdlRegistroUsuario($tabla, $datos){
 
@@ -16,7 +16,7 @@ Class ModeloUsuarios{
 		$stmt->bindParam(":nombre", $datos["nombre"], PDO::PARAM_STR);
 		$stmt->bindParam(":email", $datos["email"], PDO::PARAM_STR);
 		$stmt->bindParam(":password", $datos["password"], PDO::PARAM_STR);
-		$stmt->bindParam(":suscripcion", $datos["perfil"], PDO::PARAM_STR);
+		$stmt->bindParam(":suscripcion", $datos["suscripcion"], PDO::PARAM_STR);
 		$stmt->bindParam(":verificacion", $datos["verificacion"], PDO::PARAM_STR);
 		$stmt->bindParam(":email_encriptado", $datos["email_encriptado"], PDO::PARAM_STR);
 		$stmt->bindParam(":patrocinador", $datos["patrocinador"], PDO::PARAM_STR);//lançar parametro
