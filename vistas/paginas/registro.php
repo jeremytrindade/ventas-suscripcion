@@ -4,43 +4,60 @@
 		
 		<div class="row">
 			
-			<div class="col-12 col-lg-4">
+			<div class="col-12 col-lg-4 formulario">
 
 				<figure class="p-2 p-sm-5 p-lg-2 p-xl-3 text-center">
 				
 					<a href="<?php echo $ruta; ?>inicio"><img src="img/logo-positivo.png" class="img-fluid px-5"></a>
 
-
-
 						<div class="d-flex justify-content-between">
 						
-							<h4>Regístrate al sistema</h4>
+						<h4>Regístrate al sistema</h4>
 
-							<div class="dropdown text-right">
+						<div class="dropdown text-right">
 
-								<button type="button" class="btn btn-light btn-sm dropdown-toggle border" data-toggle="dropdown">
-									<form method="post" action="<?php echo "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]; ?>">
+							<button type="button" class="btn btn-light btn-sm dropdown-toggle pr-3" data-toggle="dropdown">
+								<form method="post" action="<?php echo "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]; ?>">
+										
 										<input type="hidden" name="idioma" value="es">
-										<input type="submit" value="ES" style="border: 0; background: transparent; padding: 0; margin: 0; float: left;cursor: pointer;">
-									</form>
-								</button>
+										<input type="submit" value="ES" style="border: 0;
+																			    background: transparent;
+																			    padding: 0;
+																			    margin: 0;
+																			    float: left;
+																			    cursor: pointer;">
 
-								<div class="dropdown-menu">
 
-									<a class="dropdown-item">
-										<form method="post" action="<?php echo "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]; ?>">
+
+								</form>
+							</button>
+
+							<div class="dropdown-menu">
+
+								<a class="dropdown-item">
+									
+									<form method="post" action="<?php echo "http://".$_SERVER["HTTP_HOST"].$_SERVER["REQUEST_URI"]; ?>">
+									
 										<input type="hidden" name="idioma" value="en">
-										<input type="submit" value="EN" style="border: 0; background: transparent; padding: 0; margin: 0; cursor: pointer;">
-									</form>
-									</a>
+										<input type="submit" value="EN" style="border: 0;
+																			    background: transparent;
+																			    padding: 0;
+																			    margin: 0;
+																			    cursor: pointer;">
 
-								</div>
+
+
+									</form>
+
+								</a>
 
 							</div>
 
 						</div>
 
-											<form class="mt-3 px-4" method="post">
+					</div>
+
+					<form method="post" class="mt-3 px-4" onsubmit="return validarPoliticas()">
 
 						<input type="hidden" value="academy-of-life" name="patrocinador">
 
@@ -57,12 +74,12 @@
 							<input type="checkbox" id="politicas" class="form-check-input">
 
 								<label class="form-check-label" for="politicas">
-							Para registrarse debe aceptar nuestras políticas de privacidad<span></span>
+							Para registrarse debe aceptar nuestras <a href="#">políticas de privacidad</a> <span></span>
 							</label>
 
 						</div>
 
-						<?php
+						<?php 
 
 							$registro = new ControladorUsuarios();
 							$registro -> ctrRegistroUsuario();

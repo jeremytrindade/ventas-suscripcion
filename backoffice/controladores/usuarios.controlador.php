@@ -34,7 +34,46 @@ Class ControladorUsuarios{
 
 				$respuesta = ModeloUsuarios::mdlRegistroUsuario($tabla, $datos);
 
-			}else{
 
-				echo "No se permiten caracteres especiales en ninguno de los campos!";
+				if ($respuesta == "ok") {
+					
+					echo '<script>
+
+						swal({
+
+							type: "success",
+							title: "¡SU CUENTA HA SIDO CREADA CORRECTAMENTE!",
+							text: "¡Por favor revise la bandeja de entrada o la carpeta SPAM de su correo electrónico para verificar la cuenta!",
+							showConfirmButton: true,
+							confirmButtonText: "Cerrar"
+
+							}).then(function(result){
+
+								if(result.value){
+									window.location = "'.$ruta.'ingreso";
+								}
+
+								})
+					</script>';
+				}
+
+			}else{
+				echo '<script>
+
+						swal({
+
+							type: "error",
+							title: "¡CORREGIR!",
+							text: "¡No se permiten caracteres especiales en ninguno de los campos!",
+							showConfirmButton: true,
+							confirmButtonText: "Cerrar"
+
+							}).then(function(result){
+
+								if(result.value){
+									history.back();
+								}
+
+								})
+					</script>';
 			}}}}

@@ -162,3 +162,15 @@ $('body').nitePreload({
 	
 	}
 });
+
+/*=============================================
+VALIDAR EMAIL REPETIDO
+=============================================*/
+
+$("input[name='registroEmail']").change(function(){
+
+	var email = $(this).val();
+	console.log("email", email);
+
+
+});
