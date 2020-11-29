@@ -10,7 +10,6 @@
 				
 					<a href="<?php echo $ruta; ?>inicio"><img src="img/logo-positivo.png" class="img-fluid"></a>
 
-					<form class="mt-5">
 
 						<div class="d-flex justify-content-between">
 						
@@ -39,6 +38,8 @@
 							</div>
 
 						</div>
+
+						<form class="mt-5">
 
 						<p class="text-center py-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi sunt officia unde officiis</p>
 
